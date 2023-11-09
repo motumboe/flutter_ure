@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <receiver
-            android:name="com.example.flutter_ure.ClockWidget"
+            android:name="ClockWidget"
             android:label="Clock"
             android:exported="true">
             <intent-filter>
