@@ -2,6 +2,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 class ClockWidget extends StatefulWidget {
+  const ClockWidget({super.key});
+
   @override
   _ClockWidgetState createState() => _ClockWidgetState();
 }
@@ -12,7 +14,7 @@ class _ClockWidgetState extends State<ClockWidget> {
   @override
   void initState() {
     _timeString = _formatDateTime(DateTime.now());
-    Timer.periodic(Duration(seconds: 1), (Timer t) => _getTime());
+    Timer.periodic(const Duration(seconds: 1), (Timer t) => _getTime());
     super.initState();
   }
 
@@ -37,9 +39,11 @@ class _ClockWidgetState extends State<ClockWidget> {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         body: Center(
           child: ClockWidget(),
@@ -49,4 +53,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
