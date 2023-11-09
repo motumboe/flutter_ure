@@ -8,6 +8,7 @@ import com.example.flutter_ure.R;
 public class ClockWidget extends AppWidgetProvider {
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
+        System.out.println("[ML] Widget update");
         // This method is called when it's time to update the widget content.
 
         // You can customize the appearance of your widget here.
