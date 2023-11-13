@@ -1,16 +1,22 @@
-# flutter_ure
+# flutter_ure - a Flutter Clock Widget for Android Home Screen
 
-A new Flutter project.
+This project is an example of a custom Flutter widget for Android. The widget is designed to be displayed on the device's home screen.
 
-## Getting Started
+## Key Features
+- **Home Screen Widget:** Adds a custom widget to the main screen of the Android device.
+- **Widget Update:** The widget should be regularly updated to reflect updated time.
+- **Current Issue:** When attempting to update the widget, a "ClassNotFoundException" issue occurs.
 
-This project is a starting point for a Flutter application.
+## Usage Instructions
+1. Clone the repository to your local development environment.
+2. Set up the Flutter and Kotlin development environment for Android in Visual Studio Code.
+3. Run the Flutter application and install the widget on the main screen.
+4. Observe the issue when attempting to update the widget.
 
-A few resources to get you started if this is your first Flutter project:
+## Issue to Resolve
+Currently, the widget is created successfully, but an issue occurs when attempting to update it. The error message indicates a "ClassNotFoundException" for the widget class.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Contributions
+Contributions and suggestions to resolve the current issue and improve the project overall are welcome. Feel free to open issues or pull requests.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Thank you for your interest and contribution!
